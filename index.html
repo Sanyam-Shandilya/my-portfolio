@@ -54,7 +54,7 @@
         }
         .btn:hover{
             font-size: 20px;
-            transition: 1s;
+            transition: 0.45s;
         }
         p a{
             color: rgb(49, 8, 250);
@@ -75,15 +75,25 @@
         #certificate img{
             max-width: 100px;
             max-height: 100px;
+            min-width: 100px;
+            min-height: 100px;
+        }
+        #certificate img:hover{
+            transition: 0.45s;
+            min-width: 110px;
+            min-height: 110px;
         }
         figure {
-            display: flexbox;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
         }
         figure a{
-            justify-content: center;
             align-items: center;
-            display: inline-block;
+            display: flex;
             margin: 0.5rem 1rem;
+            flex-direction: column;
         }
     </style>
 </head>
@@ -224,22 +234,82 @@
         <h1 class="text-center mb-3">Certifications</h1>
         <figure>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img class="img-fluid" src="https://images.credly.com/size/680x680/images/84ac9eff-b8a2-4683-846b-f59887a73801/Python_101_Data_Science.png" alt="Python_101_Data_Science">
-                <figcaption>Python for data Science</figcaption>
+                <img class="img-fluid" src="python.png" alt="Python_101_Data_Science">
+                <figcaption>Python for</figcaption>
+                <figcaption>Data Science</figcaption>
             </a>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img src="https://images.credly.com/size/680x680/images/d7321425-c989-4bf9-846a-cd2a647d213b/Data_Sci_Foundations_Level_2_-_CC_-_2019.png" alt="Data_Sci_Foundations_Level_2">
-                <figcaption>Data Science Foundation Lvl 2</figcaption>
+                <img src="fundamentals.png" alt="Data_Sci_Foundations_Level_2">
+                <figcaption>Data Science</figcaption>
+                <figcaption>Foundation Lvl 2</figcaption>
+            </a>
+            <a href="https://www.credly.com/users/sanyam-shandilya/badges">
+                <img src="methodology.png" alt="Data_Science_Methodologies">
+                <figcaption>Data Science</figcaption>
+                <figcaption>Methodologies</figcaption>
+            </a>
+            <a href="https://www.hackerrank.com/certificates/8339ec39b7d3">
+                <img src="hack-problem.png" alt="Problem Solving (Basic)">
+                <figcaption>Problem Solving</figcaption>
+                <figcaption>(Basic)</figcaption>
+            </a>
+            <a href="https://www.hackerrank.com/certificates/f127f774d8c3">
+                <img src="hack-problem-intermediate.png" alt="Problem Solving (Intermediate)">
+                <figcaption>Problem Solving</figcaption>
+                <figcaption>(Intermediate)</figcaption>
+            </a>
+            <a href="https://www.hackerrank.com/certificates/be19456608c2">
+                <img src="hack-pythoon.png" alt="Python (Basic)">
+                <figcaption>Python</figcaption>
+                <figcaption>(Basic)</figcaption>
+            </a>
+            <a href="https://www.hackerrank.com/certificates/c65073258103">
+                <img src="hack-sql-basic.png" alt="SQL (Basic)">
+                <figcaption>SQL</figcaption>
+                <figcaption>(Basic)</figcaption>
             </a>
         </figure>
-        <a href="https://www.credly.com/users/sanyam-shandilya/badges"><img src="https://images.credly.com/size/680x680/images/dfd6eb51-4caa-4ffe-b107-85ece064370c/Data_Science_Methodologies.png" alt="Data_Science_Methodologies">Data Science Methodologies</a>
-    <!-- https://www.hackerrank.com/certificates/8339ec39b7d3 -->
-
+        <a class="btn" href="https://drive.google.com/drive/folders/19ea9BPyhjb1OP8R05tyz57bnu_U-JwZt?usp=sharing">View all certificates</a>
     </section>
 
     <section class="p-5" id="skill">
         <h1 class="text-center mb-3">Skills</h1>
-
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="https://cdn.pixabay.com/photo/2018/09/18/11/19/artificial-intelligence-3685928_1280.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h4>Here are some of my skills</h4>
+                    <small>Web Design</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>One Page</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Mobile Template</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Backend API</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Website Markup</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="p-5" id="education">
