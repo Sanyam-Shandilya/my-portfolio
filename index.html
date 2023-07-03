@@ -12,90 +12,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <!-- Convert this to an external style sheet -->
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        #hero ,#certificate,#education{
-            background-color: #21252915;
-        }
-
-        footer {
-            background: #212529;
-        }
-
-        .text-small {
-            font-size: 0.9rem;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-
-        a:hover,
-        a:focus {
-            text-decoration: none;
-        }
-        
-        .image {
-            background: #34495e;
-            border: 1px solid #34495e;
-            max-height: 366.55px;
-        }
-        h3 a:hover{
-            font-size: 30px;
-            
-        }
-        .btn{
-            width: 100%;
-        }
-        .btn:hover{
-            font-size: 20px;
-            transition: 0.45s;
-        }
-        p a{
-            color: rgb(49, 8, 250);
-            text-shadow: 1px;
-        }
-        p a:hover{
-            color: cadetblue;
-        }
-        i{
-            font-size: 50px;
-            margin:10px;
-        }
-        form{
-            border-style: solid;
-            border-width: 1px;
-            padding: 1.5rem;
-        }
-        #certificate img{
-            max-width: 100px;
-            max-height: 100px;
-            min-width: 100px;
-            min-height: 100px;
-        }
-        #certificate img:hover{
-            transition: 0.45s;
-            min-width: 110px;
-            min-height: 110px;
-        }
-        figure {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        figure a{
-            align-items: center;
-            display: flex;
-            margin: 0.5rem 1rem;
-            flex-direction: column;
-        }
-    </style>
+    <link href="css\style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -136,7 +53,7 @@
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="port_no_backk.png"
+                    <img src="img\my_photo\port_no_backk.png"
                         class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
                         loading="lazy">
                 </div>
@@ -234,37 +151,37 @@
         <h1 class="text-center mb-3">Certifications</h1>
         <figure>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img class="img-fluid" src="python.png" alt="Python_101_Data_Science">
+                <img class="img-fluid" src="img\certificate\python.png" alt="Python_101_Data_Science">
                 <figcaption>Python for</figcaption>
                 <figcaption>Data Science</figcaption>
             </a>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img src="fundamentals.png" alt="Data_Sci_Foundations_Level_2">
+                <img src="img\certificate\fundamentals.png" alt="Data_Sci_Foundations_Level_2">
                 <figcaption>Data Science</figcaption>
                 <figcaption>Foundation Lvl 2</figcaption>
             </a>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img src="methodology.png" alt="Data_Science_Methodologies">
+                <img src="img\certificate\methodology.png" alt="Data_Science_Methodologies">
                 <figcaption>Data Science</figcaption>
                 <figcaption>Methodologies</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/8339ec39b7d3">
-                <img src="hack-problem.png" alt="Problem Solving (Basic)">
+                <img src="img\certificate\hack-problem.png" alt="Problem Solving (Basic)">
                 <figcaption>Problem Solving</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/f127f774d8c3">
-                <img src="hack-problem-intermediate.png" alt="Problem Solving (Intermediate)">
+                <img src="img\certificate\hack-problem-intermediate.png" alt="Problem Solving (Intermediate)">
                 <figcaption>Problem Solving</figcaption>
                 <figcaption>(Intermediate)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/be19456608c2">
-                <img src="hack-pythoon.png" alt="Python (Basic)">
+                <img src="img\certificate\hack-pythoon.png" alt="Python (Basic)">
                 <figcaption>Python</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/c65073258103">
-                <img src="hack-sql-basic.png" alt="SQL (Basic)">
+                <img src="img\certificate\hack-sql-basic.png" alt="SQL (Basic)">
                 <figcaption>SQL</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
@@ -282,29 +199,39 @@
                 </div>
                 <div class="col-lg-6">
                     <h4>Here are some of my skills</h4>
-                    <small>Web Design</small>
-                    <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="72"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>One Page</small>
-                    <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Mobile Template</small>
-                    <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="72"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Backend API</small>
+                    <small>Python</small>
                     <div class="progress mb-3" style="height: 5px">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="72"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <small>Website Markup</small>
+                    <small>JAVA</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 78%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Data Analysis</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Data Cleaning</small>
                     <div class="progress mb-3" style="height: 5px">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>SQL</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Machine learning</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 76%" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>OpenCv</small>
+                    <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 84%" aria-valuenow="72"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
@@ -321,7 +248,7 @@
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img class="image img-fluid" src="contact.jpg" style="border:none;">
+                    <img class="image img-fluid" src="img\port_design\contact.jpg" style="border:none;">
                     <a href="https://www.freepik.com/free-vector/contact-concept-landing-page_5155590.htm#query=digital%20art%20contact&position=2&from_view=search&track=ais" style="font-size: 8px;">Image by pikisuperstar on Freepik</a>
                     <p>Feel free to ping me.</p>
                     <a href="https://github.com/Sanyam-Shandilya/"><i class="fa-brands fa-github-alt"></i></a>
