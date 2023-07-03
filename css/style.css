@@ -1,45 +1,76 @@
+/* https://www.happyhues.co/palettes/12 */
+/* Body Style */
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #0f0e17;
+    color: #a7a9be;
+    
 }
-
-#hero ,#certificate,#education{
-    background-color: #21252915;
+.btn{
+    background-color: #a7a9be;
+    border: #fffffe;
+    width: 100%;
+    border-color: #0f0e17;
 }
-
-footer {
-    background: #212529;
+h1,h2,h3,h4,h5,h6{
+    color: #fffffe;
 }
-
-.text-small {
-    font-size: 0.9rem;
+.btn:hover{
+    background-color: #ff8906;
 }
-
 a {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
 }
-
 a:hover,
 a:focus {
     text-decoration: none;
 }
 
+/* Navbar */
+nav{
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+.nav-link{
+    color: #fffffe;
+}
+.nav-link:hover{
+    color: #ff8906;
+}
+.navbar-toggler-icon{
+
+    background-color: #a7a9be;
+    
+}
+/* Hero */
+
+/* Project */
+
+#project .container{
+    color: #a7a9be;
+}
+/* Certificates */
+/* Skills and Education */
+.text-small {
+    font-size: 0.9rem;
+}
+/* Contact */
+/* Footer */
+footer {
+    background: #212529;
+}
+#contact a:hover{
+    color: #ff8906;
+}
+
+
+
 .image {
     background: #34495e;
     border: 1px solid #34495e;
     max-height: 366.55px;
-}
-h3 a:hover{
-    font-size: 30px;
-    
-}
-.btn{
-    width: 100%;
-}
-.btn:hover{
-    font-size: 20px;
-    transition: 0.45s;
 }
 p a{
     color: rgb(49, 8, 250);
@@ -57,6 +88,7 @@ form{
     border-width: 1px;
     padding: 1.5rem;
 }
+
 #certificate img{
     max-width: 100px;
     max-height: 100px;
@@ -79,4 +111,32 @@ figure a{
     display: flex;
     margin: 0.5rem 1rem;
     flex-direction: column;
+}
+.timeline-with-icons {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+  
+.timeline-with-icons .timeline-item {
+    position: relative;
+}
+  
+.timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+  
+.timeline-with-icons .timeline-icon {
+    position: absolute;
+    left: -48px;
+    background-color: hsl(217, 88.2%, 90%);
+    color: #ff8906;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
