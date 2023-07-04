@@ -68,8 +68,7 @@
                         Science.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn  btn-lg px-4 me-md-2">Hire Me</button>
-                        <button type="button" class="btn  btn-lg px-4">Buy me a coffee!</button>
+                        <button type="button" class="btn btn-lg px-4 me-md-2">Hire Me</button>
                     </div>
                 </div>
             </div>
@@ -155,39 +154,69 @@
     <section class="p-5" id="certificate">
         <h1 class="text-center mb-3">Certifications</h1>
         
-        <figure>
+        <div id="demo" class="carousel slide col-lg-12 p-5" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img\certificate\prepare.png" alt="Preparing Data Google Certificate" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="img\certificate\process.png" alt="Processing Data Google Certificate" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="img\certificate\analyze.png" alt="Analyzing Data Google Certificate" class="d-block w-100">
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        <figure class="col-lg-12">
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img class="img-fluid" src="img\certificate\python.png" alt="Python_101_Data_Science">
+                <img class="img-small" src="img\certificate\python.png" alt="Python_101_Data_Science">
                 <figcaption>Python for</figcaption>
                 <figcaption>Data Science</figcaption>
             </a>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img src="img\certificate\fundamentals.png" alt="Data_Sci_Foundations_Level_2">
+                <img class="img-small" src="img\certificate\fundamentals.png" alt="Data_Sci_Foundations_Level_2">
                 <figcaption>Data Science</figcaption>
                 <figcaption>Foundation Lvl 2</figcaption>
             </a>
             <a href="https://www.credly.com/users/sanyam-shandilya/badges">
-                <img src="img\certificate\methodology.png" alt="Data_Science_Methodologies">
+                <img class="img-small" src="img\certificate\methodology.png" alt="Data_Science_Methodologies">
                 <figcaption>Data Science</figcaption>
                 <figcaption>Methodologies</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/8339ec39b7d3">
-                <img src="img\certificate\hack-problem.png" alt="Problem Solving (Basic)">
+                <img class="img-small" src="img\certificate\hack-problem.png" alt="Problem Solving (Basic)">
                 <figcaption>Problem Solving</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/f127f774d8c3">
-                <img src="img\certificate\hack-problem-intermediate.png" alt="Problem Solving (Intermediate)">
+                <img class="img-small" src="img\certificate\hack-problem-intermediate.png" alt="Problem Solving (Intermediate)">
                 <figcaption>Problem Solving</figcaption>
                 <figcaption>(Intermediate)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/be19456608c2">
-                <img src="img\certificate\hack-pythoon.png" alt="Python (Basic)">
+                <img class="img-small" src="img\certificate\hack-pythoon.png" alt="Python (Basic)">
                 <figcaption>Python</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
             <a href="https://www.hackerrank.com/certificates/c65073258103">
-                <img src="img\certificate\hack-sql-basic.png" alt="SQL (Basic)">
+                <img class="img-small" src="img\certificate\hack-sql-basic.png" alt="SQL (Basic)">
                 <figcaption>SQL</figcaption>
                 <figcaption>(Basic)</figcaption>
             </a>
@@ -197,7 +226,7 @@
 
     <section class="p-5" id="education_n_skill">
         <h1 class="text-center mb-3">Skills and Education</h1>
-        <div class="container p-5" style="display: flex;">
+        <div class="container" style="display: flex;">
         <div class="col-lg-6" style="padding: 1px 10%;">
             <h4>Here are some of my skills</h4>
             <small>Python</small>
@@ -306,14 +335,14 @@
                             <div class="col">
                                 <label class="form-label">Last Name</label>
                                 <input type="text" name="lastName" class="form-control" placeholder="Last name"
-                                    aria-label="Last name" required>
+                                aria-label="Last name" required>
                             </div>
                         </div>
                         <div class="row mb-1">
                             <div class="col">
                                 <label class="form-label">Email</label>
                                 <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email"
-                                    required>
+                                required>
                             </div>
                             <div class="col">
                                 <label class="form-label">Phone (optional)</label>
@@ -324,14 +353,14 @@
                             <div class="col">
                                 <label class="form-label">Subject</label>
                                 <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject"
-                                    required>
+                                required>
                             </div>
                         </div>
                         <div class="row mb-1">
                             <div class="col">
                                 <label class="form-label">Message</label>
                                 <textarea type="text" name="message" class="form-control" placeholder="Message" aria-label="Message"
-                                    required></textarea>
+                                required></textarea>
                             </div>
                         </div>
                         <button type="submit" style="width: 100%;" class="btn  mt-2">Submit</button>
@@ -340,14 +369,38 @@
             </div>
         </div>
     </section>
+    
+    <section id="team" class="p-5">
+        <h1 class="text-center mb-3 p-5">Our Team</h1>
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="profile col-lg-6">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        
+                <h2>Kriti Aggarwal</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <p><a class="btn btn-secondary" href="https://deepanshujaiswal.netlify.app">Visit Profile »</a></p>
+              </div>
+              
+              <div class="profile col-lg-6">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        
+                <h2>Deepanshu Jaiswal</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+              </div>
+              
+          </div>
+    </section>
 
     <footer class="w-100 py-4 flex-shrink-0">
         <div class="container py-4">
             <div class="row gy-4 gx-5">
                 <div class="col-lg-4 col-md-6">
                     <h5 class="h1 text-white">Sanyam Shandilya</h5>
-                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt.</p>
+                    <p class="small text-muted">Data Analyst | ML | DL | Hacker Rank 5 star Python Coder | Hacker Rank 5 star Problem Solving Coder |</p>
                     <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.</p>
                 </div>
                 <div class="col-lg-2 col-md-6">

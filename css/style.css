@@ -4,19 +4,21 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0f0e17;
     color: #a7a9be;
-    
 }
-.btn{
+.btn {
     background-color: #a7a9be;
     border: #fffffe;
-    width: 100%;
+    width: 60%;
+    position: relative;
     border-color: #0f0e17;
-}
-h1,h2,h3,h4,h5,h6{
-    color: #fffffe;
+    margin: 0px 20%;
 }
 .btn:hover{
     background-color: #ff8906;
+    color: #fffffe;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #fffffe;
 }
 a {
     color: inherit;
@@ -26,6 +28,22 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
+    color: #ff8906;
+}
+.image {
+    background: #34495e;
+    border: 1px solid #34495e;
+    max-height: 366.55px;
+}
+p a{
+    text-shadow: 1px;
+}
+p a:hover{
+    color: cadetblue;
+}
+i{
+    font-size: 50px;
+    margin:10px;
 }
 
 /* Navbar */
@@ -36,69 +54,68 @@ nav{
 .nav-link{
     color: #fffffe;
 }
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus{
     color: #ff8906;
 }
 .navbar-toggler-icon{
-
     background-color: #a7a9be;
-    
 }
 /* Hero */
-
+#hero .btn{
+    margin: 0px;
+    width: 100%;
+}
 /* Project */
-
 #project .container{
     color: #a7a9be;
 }
-/* Certificates */
-/* Skills and Education */
-.text-small {
-    font-size: 0.9rem;
+#project .btn{
+    margin: 0px;
+    width: 100%;
 }
-/* Contact */
-/* Footer */
-footer {
-    background: #212529;
-}
-#contact a:hover{
+#project p a{
     color: #ff8906;
 }
-
-
-
-.image {
-    background: #34495e;
-    border: 1px solid #34495e;
-    max-height: 366.55px;
+/* Certificates */
+#certificate .container{
+    display: flex;
 }
-p a{
-    color: rgb(49, 8, 250);
-    text-shadow: 1px;
+.carousel {
+    position: relative;
+    display: flex;
 }
-p a:hover{
-    color: cadetblue;
+#demo .carousel-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
-i{
-    font-size: 50px;
-    margin:10px;
-}
-form{
-    border-style: solid;
-    border-width: 1px;
-    padding: 1.5rem;
-}
-
 #certificate img{
+    max-width: 50%;
+    max-height: 40%;
+    min-width: 100px;
+    min-height: 100px;
+}
+#certificate .img-small{
     max-width: 100px;
     max-height: 100px;
     min-width: 100px;
     min-height: 100px;
 }
-#certificate img:hover{
+#certificate .img-small:hover{
     transition: 0.45s;
     min-width: 110px;
     min-height: 110px;
+}
+.side-fig{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 figure {
     display: flex;
@@ -112,6 +129,7 @@ figure a{
     margin: 0.5rem 1rem;
     flex-direction: column;
 }
+/* Skills and Education */
 .timeline-with-icons {
     border-left: 1px solid hsl(0, 0%, 90%);
     position: relative;
@@ -140,3 +158,46 @@ figure a{
     align-items: center;
     justify-content: center;
 }
+.text-small {
+    font-size: 0.9rem;
+}
+/* Contact */
+#contact a:hover{
+    color: #ff8906;
+}
+#contact .btn{
+    margin: 0px;
+}
+form{
+    border-style:dashed;
+    border-width: 1px;
+    padding: 1.5rem;
+}
+/* Team */
+#team .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+#team .profile {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#team .btn{
+    margin: 0px;
+    width: 100%;
+}
+/* Footer */
+footer {
+    background: #212529;
+}
+
+
+
+
