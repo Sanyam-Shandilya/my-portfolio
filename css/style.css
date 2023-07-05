@@ -9,6 +9,7 @@ body {
     background-color: #a7a9be;
     border: #fffffe;
     width: 60%;
+    font-weight: 400;
     position: relative;
     border-color: #0f0e17;
     margin: 0px 20%;
@@ -60,6 +61,18 @@ nav{
 }
 .navbar-toggler-icon{
     background-color: #a7a9be;
+}
+.res-btn{
+    background-color: #a7a9be;
+    color: #0f0e17;
+    border-color: #0f0e17;
+    border-radius: 100px;
+    margin: 2px;
+}
+.res-btn:hover,
+.res-btn:focus{
+    background-color: #ff8906;
+    color: #fffffe;
 }
 /* Hero */
 #hero .btn{
@@ -192,6 +205,12 @@ form{
 #team .btn{
     margin: 0px;
     width: 100%;
+    color: #0f0e17;
+}
+#team .btn:hover,
+#team .btn:focus{
+    color: #fffffe;
+    background-color: #ff8906;
 }
 /* Footer */
 footer {
