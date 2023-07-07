@@ -79,6 +79,11 @@ nav{
     margin: 0px;
     width: 100%;
 }
+#hero .img-fluid {
+    border-radius: 5px;
+    max-width: 48%;
+    height: auto;
+}
 /* Project */
 #project .container{
     color: #a7a9be;
